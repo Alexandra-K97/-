@@ -39,6 +39,7 @@ input::placeholder {
 .index {
   background-image: url(img/картинка.png);
   height: 900px;
+  background-size: cover;
 }
 .header-top {
   display: flex;
