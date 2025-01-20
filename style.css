@@ -38,9 +38,11 @@ input::placeholder {
 }
 .index {
   background-image: url(img/картинка.png);
-  height: 900px;
+  height: 100vh;
   background-size: cover;
+  position: relative;
 }
+
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -77,9 +79,13 @@ input::placeholder {
 }
 .buttons {
   gap: 30px;
-  margin-top: 583px;
+  position: absolute;
+  left: 0;
+  bottom:16%;
   display: flex;
   justify-content: center;
+  width:100%;
+
 }
 
 button {
